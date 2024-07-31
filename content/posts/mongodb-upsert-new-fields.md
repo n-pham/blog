@@ -1,6 +1,6 @@
 +++
 title = 'MongoDB upsert new fields'
-featured_image = '/images/mongodb-upsert-new-fields.png'
+featured_image = 'images/mongodb-upsert-new-fields.png'
 date = 2024-07-31T15:52:39+07:00
 draft = false
 tags = ['mongodb', 'spark', 'upsert']
