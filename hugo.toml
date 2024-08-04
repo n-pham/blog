@@ -2,11 +2,12 @@ baseURL = 'https://n-pham.github.io/blog/'
 languageCode = 'en-us'
 title = 'Nguyen Pham'
 theme = 'diary'
-copyright = "Disclaimer: posts are my own and do not necessarily reflect the views of my employer"
+copyright = "Disclaimer: posts are my own and do not necessarily reflect the views of my employer or client"
+googleAnalytics = "G-K0JX3PWCWM"
 
 [params]
 favicon = 'images/favicon.ico'
-subtitle = "Multi-Cloud | Big Data & Analytics Lead"
+subtitle = "Data Lake Analytics Lead | DB Architect | Multi-Cloud | R, Python, SQL"
 
 [markup]
   [markup.highlight]
