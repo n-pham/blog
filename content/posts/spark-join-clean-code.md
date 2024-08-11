@@ -1,7 +1,7 @@
 +++
 title = 'Spark Join Clean Code'
 featured_image = 'images/spark-join-clean-code.png'
-date = 2024-02-04T15:52:39+07:00
+date = 2024-01-13T15:52:39+07:00
 draft = false
 tags = ['spark', 'join']
 +++
