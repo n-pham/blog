@@ -14,6 +14,9 @@ subtitle = "Data Lake Analytics Lead | DB Architect | Multi-Cloud | R, Python, S
     style = "onedark"
     lineNos = false
 
+[markup.goldmark.renderer]
+      unsafe = true
+
 [[menu.main]]
 url = "/tags"
 name = "Tags"
