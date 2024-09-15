@@ -172,6 +172,7 @@ from products
 /*
 total |	expensive_count
 2	    1
+
 */
 
 ```
@@ -211,6 +212,46 @@ from products
 -- BigQuery syntax
 qualify row_number() over(
     order by price desc) = 1
+```
+
+</td>
+</tr>
+<tr>
+<td>
+
+```sql
+-- Added on 2024-09-15
+with product_1 (product_id, price) as (
+    select 'p1', 5
+)
+, product_2 (product_id, price) as (
+    select 'p2', cast(NULL as integer)
+)
+select *
+from product_1 as p1
+inner join product_2 as p2
+on p1.price != p2.price
+   or p1.price is null
+      and p2.price is not null
+   or p1.price is not null
+      and p2.price is null
+```
+  
+</td>
+<td>
+
+```sql
+-- PostgreSQL, SQL Server
+with product_1 (product_id, price) as (
+    select 'p1', 5
+)
+, product_2 (product_id, price) as (
+    select 'p2', cast(NULL as integer)
+)
+select *
+from product_1 as p1
+inner join product_2 as p2
+on p1.price is distinct from p2.price
 
 
 
