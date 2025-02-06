@@ -3,7 +3,7 @@ title = 'Column-level Lineage over Documentation'
 featured_image = 'images/column-level-lineage-over-documentation.png'
 date = 2024-11-23T10:52:39+07:00
 draft = false
-tags = ['#lineage', '#collaboration']
+tags = ['lineage', 'collaboration']
 +++
 # Where is source attribute A in the dataset?
 

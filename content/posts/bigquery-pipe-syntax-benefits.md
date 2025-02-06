@@ -37,7 +37,7 @@ product_classification as (
         end as classification
     from products
 )
-select product_id
+select product_id, classification
 from product_classification
 where classification = 'Cheap'
 
@@ -75,7 +75,7 @@ with products as (
         else 'Cheap'
     end as classification
 |> where classification = 'Cheap'
-|> select product_id
+|> select product_id, classification
 
 
 
