@@ -106,7 +106,11 @@ Set:
 </table>
 
 
-# List & Set common syntax recommendation
+# List & Set common syntax recommendation if not in a loop
+
+> **Warning**  
+> `+` syntax copies all the elements from the old list to a new list, adds the new element(s), then assigns this new list to the variable.  
+> In a loop, this syntax will result in O(n2) complexity.
 
 <table>
 <tr>
