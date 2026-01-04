@@ -58,3 +58,70 @@ for interval in intervals:
 </tr>
 </table>
 
+
+# Example 2
+
+`match` in Python 3.10+ feels natural with backtracking algorithm.
+
+For example, to generate all valid parenthesis pairs for length `n`.
+
+<table>
+<tr>
+<th>Without <code>match</code></th>
+<th>With <code>match</code></th>
+</tr>
+<tr>
+<td>
+  
+```python
+n = 6
+
+def backtrack(s, open, close):
+    result = []
+    # Base case: completed valid string
+    if open == n and close == n:
+        return [s]
+    # Can add opening parenthesis
+    if open < n:
+        result.extend(
+            backtrack(s+"(", open+1, close)
+        )
+    # Can add closing parenthesis
+    if close < open:
+        result.extend(
+            backtrack(s+")", open, close+1)
+        )
+    return result
+
+print(backtrack("", 0, 0))
+```
+  
+</td>
+<td>
+
+```python
+n = 6
+
+def backtrack(state):
+    match state:  # current_string, open, close
+        # Base case: both counts equal n
+        case (s, open, close) if open == close == n:
+            return [s]
+        # Can add opening parenthesis
+        case (s, open, close) if open < n:
+            left = backtrack((s+"(", open+1, close))
+            if close >= open:
+                return left
+            # Can also add closing if close < open
+            return left + backtrack((s+")", open, close+1))
+        # Can only add closing parenthesis
+        case (s, open, close) if close < open:
+            return backtrack((s + ")", open, close+1))
+
+
+print(backtrack(("", 0, 0)))
+```
+</td>
+</tr>
+</table>
+
