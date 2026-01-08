@@ -6,3 +6,8 @@ hugo_stats.json
 
 .DS_Store
 .hugo_build.lock
+
+# Local RAG
+knowledge.json
+.env
+.venv/
