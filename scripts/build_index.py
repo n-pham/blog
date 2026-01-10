@@ -13,20 +13,12 @@ import glob
 import re
 import json
 import numpy as np
+import auth
 from google import genai
 from google.genai import types
-from dotenv import load_dotenv
 from tqdm import tqdm
 
-# Load environment variables
-load_dotenv()
-
-API_KEY = os.getenv("GEMINI_API_KEY")
-if not API_KEY:
-    print("Error: GEMINI_API_KEY not found in environment variables.")
-    exit(1)
-
-client = genai.Client(api_key=API_KEY)
+client = auth.get_client()
 
 # Configuration
 CONTENT_DIR = "content/posts"

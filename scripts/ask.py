@@ -12,20 +12,12 @@ import json
 import sys
 import time
 import numpy as np
+import auth
 from google import genai
 from google.genai import types
 from google.genai.errors import ClientError
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-
-API_KEY = os.getenv("GEMINI_API_KEY")
-if not API_KEY:
-    print("Error: GEMINI_API_KEY not found.")
-    exit(1)
-
-client = genai.Client(api_key=API_KEY)
+client = auth.get_client()
 
 # Configuration
 KNOWLEDGE_FILE = "knowledge.json"
