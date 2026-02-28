@@ -3,7 +3,9 @@ languageCode = 'en-us'
 title = 'Nguyen Pham'
 theme = 'diary'
 copyright = "Disclaimer: posts are my own and do not necessarily reflect the views of my employer or client"
-googleAnalytics = "G-K0JX3PWCWM"
+[services]
+  [services.googleAnalytics]
+    id = "G-K0JX3PWCWM"
 
 [params]
 favicon = 'images/favicon.ico'
