@@ -26,6 +26,10 @@ poetry show --tree --why urllib3
 uv add urllib3~=1.2.3
 poetry add urllib3~=1.2.3
 
+# to skip versions with known errors
+uv add "urllib3>=1.2.3,<1.3.0,!=1.2.4"
+poetry add "urllib3>=1.2.3,<1.3.0,!=1.2.4"
+
 # requirements.txt if needed
 uv export --no-hashes > requirements.txt
 poetry export --without-hashes --format=requirements.txt > requirements.txt
