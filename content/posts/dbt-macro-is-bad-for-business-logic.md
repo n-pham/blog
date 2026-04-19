@@ -8,7 +8,7 @@ tags = ['dbt', 'datamodel', 'macro']
 
 Macro is good for technical logic (e.g. format, SCD2 from and to dates), but is bad for business logic:
 
-* invisible in in data lineage
+* invisible in data lineage
 * macro cannot be unit tested
 * every other re-use in model needs a redundant unit test
 * technically complex for business user to work on
