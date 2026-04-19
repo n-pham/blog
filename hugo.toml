@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Nguyen Pham'
 theme = 'diary'
 copyright = "Disclaimer: posts are my own and do not necessarily reflect the views of my employer or client"
+canonifyURLs = true
+
 [services]
   [services.googleAnalytics]
     id = "G-K0JX3PWCWM"
