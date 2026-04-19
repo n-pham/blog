@@ -13,4 +13,10 @@ Macro is good for technical logic (e.g. format, SCD2 from and to dates), but is 
 * every other re-use in model needs a redundant unit test
 * technically complex for business user to work on
 
-For business logic re-use, apply a design pattern that puts logic in a single upstream model, instead of macro.
+For business logic re-use, apply a design pattern that puts logic in a base upstream model, instead of macro.
+Other ideas:
+* validation in data test (`dbt_utils.expression_is_true`)
+* easy business involvement
+* AI can safely work in downstream models without touching business logic
+* wide view for business logic from multiple models
+* unit test for edge cases
