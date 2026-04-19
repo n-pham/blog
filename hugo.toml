@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Nguyen Pham'
 theme = 'diary'
 copyright = "Disclaimer: posts are my own and do not necessarily reflect the views of my employer or client"
-canonifyURLs = true
 
 [services]
   [services.googleAnalytics]
@@ -22,12 +21,12 @@ subtitle = "Data Lake Analytics Lead | DB Architect | Multi-Cloud | R, Python, S
       unsafe = true
 
 [[menu.main]]
-url = "/tags"
+url = "/tags/"
 name = "Tags"
 weight = 2
 
 [[menu.main]]
-url = "/posts"
+url = "/posts/"
 name = "Timeline"
 weight = 1
 
