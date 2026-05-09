@@ -32,3 +32,5 @@ Why this works:
 * Cost Efficiency: The heavy model only runs once a day.
 * Instant Freshness: Since the final layer is a view, it fetches the latest statuses from the hourly table at query time.
 * Cleaner Lineage: we stop the "chain reaction" of hourly refreshes from propagating through the entire DAG.
+
+Similarly use a view for logics that use current date/time.
