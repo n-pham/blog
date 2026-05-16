@@ -1,5 +1,5 @@
 +++
-title = 'Spak OOM is firstly a Modeling Problem'
+title = 'Spark OOM is firstly a Modeling Problem'
 date = 2026-05-16T10:00:00+07:00
 draft = false
 tags = ['spark', 'datamodel']
@@ -14,7 +14,7 @@ Spark infers schemas using "greedy" data types, change to an optimized schema:
 * use `ShortType` instead of `IntegerType` if values never exceed 32,767.
 * use `DecimalType` only when necessary; otherwise, use `FloatType` or `DoubleType`.
 
-Before joining using `StringType` ID values, consider hashing them to an `IntegerType` or `LongType` (lesson from Qlik `Autonumber()`)
+Before joining using `StringType` ID values, consider hashing them to an `IntegerType` or `LongType` (lesson from Qlik `Autonumber()`).
 
 # Underrated fix 2: Cardinality
 
