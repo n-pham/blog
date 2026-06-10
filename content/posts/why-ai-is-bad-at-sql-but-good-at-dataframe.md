@@ -44,6 +44,21 @@ tags = ['ai', 'sql']
 <td><b>.join</b>(df2, "id", "left_anti")</td>
 <td><b>WHERE NOT EXISTS</b> / EXCEPT</td>
 </tr>
+<tr>
+<td>Hint Broadcast Join</td>
+<td>.join(df2.<b>hint</b>("broadcast"), "id")</td>
+<td><b>/*+ Broadcast(df2) */</b></td>
+</tr>
+<tr>
+<td>Hint Merge Join</td>
+<td>.join(df2.<b>hint</b>("merge"), "id")</td>
+<td><b>SET enable_hashjoin = off;<br>SELECT ...;<br>RESET enable_hashjoin;</b></td>
+</tr>
+<tr>
+<td>Partition Pruning</td>
+<td>.filter(col("year") == 2026)<br>DAG will <b>always</b> do partition-pruning</td>
+<td>WHERE ... AND year = 2026<br>Complex WHERE may <b>miss</b> partition pruning</td>
+</tr>
 </table>
 
 <br>
