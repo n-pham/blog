@@ -40,7 +40,7 @@ with adbc_psql.connect("postgresql://user:password@host:5432/db") as conn:
 
 ## Write distributed data to Postgres
 
-*Set options for Bulk Copy*
+*Set options for Bulk Copy, ADBC is not needed.*
 
 ```python
 (spark_df.write
