@@ -77,3 +77,9 @@ If you backfill a month in 2023, you must re-calculate the timeline for any ID t
 4.  Replace only those IDs in the final table.
 
 This approach makes backfilling deterministic and avoids the "broken timeline" trap common in SQL-based incremental updates.
+
+---
+
+# Nightmare Mode: SCD Type 2 with SQL
+
+Too hard for me.
