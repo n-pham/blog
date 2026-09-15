@@ -15,3 +15,7 @@ Stop naively tuning prompts for predictability. Use AI to build deterministic to
 Drinking is allowed, but needs minimum age to enforce ownership and accountability of the actions. 
 Vibe Coding is allowed, but needs minimum years of experience to enforce ownership and awareness of the possible consequences.
 
+
+CEO: We got Production security breach. Find out who committed that code and fire him.
+Manager: Boss, git log says "Co-Authored-By: Claude"
+
