@@ -68,3 +68,66 @@ task_id	modified_ts	status
 `status = 'failed'` runs **AFTER** `qualify`
 </td>
 </table>
+
+# UNION with QUALIFY
+
+<table>
+<tr>
+<td>
+
+```sql
+with t1 as (
+  select 1 as id, 'a' as val
+  union all select 1, 'b'
+),
+t2 as (
+  select 1 as id, 'c' as val
+  union all select 1, 'd'
+)
+select *
+from t1
+union all
+select *
+from t2
+qualify row_number() over (
+  partition by id order by val) = 1
+/*
+id val
+ 1   a   
+ 1   b  
+ 1   c    QUALIFY only works on t2
+*/
+```
+
+Surprise: `QUALIFY` runs **only on t2**!
+</td>
+<td>
+
+```sql
+with t1 as (
+  select 1 as id, 'a' as val
+  union all select 1, 'b'
+),
+t2 as (
+  select 1 as id, 'c' as val
+  union all select 1, 'd'
+)
+select * from (
+  select * from t1
+  union all
+  select * from t2
+)
+qualify row_number() over (
+  partition by id order by val) = 1
+/*
+id val
+ 1   a    QUALIFY works on both
+*/
+
+ 
+```
+
+Wrap in subquery to apply QUALIFY to both.
+</td>
+</tr>
+</table>
