@@ -37,7 +37,7 @@ task_id	modified_ts	status
 */
 ```
 
-`status = 'failed'` runs **BEFORE** `qualify`
+`status = 'failed'` is in `where` **BEFORE** `qualify`
 </td>
 <td>
 
@@ -65,7 +65,7 @@ task_id	modified_ts	status
 */
 ```
 
-`status = 'failed'` runs **AFTER** `qualify`
+`status = 'failed'` is **IN** `qualify`
 </td>
 </table>
 
