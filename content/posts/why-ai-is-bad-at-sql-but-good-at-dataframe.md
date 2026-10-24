@@ -66,3 +66,4 @@ tags = ['ai', 'sql']
 * For DataFrame, code is a stream of tokens in the exact same order of the logic, with the same consistent keywords.
 * For SQL, both humans and AI must constantly look ahead or look back to place the right keyword in the right clause.
 * For me, why must I keep learning new SQL syntax while I have been writing SQL since 2004!
+* But SQL is still best for non-tech humans. So dual frameworks such as PySpark, Ibis and SQLMesh are best for this scenario.
