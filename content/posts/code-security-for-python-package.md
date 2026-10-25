@@ -26,6 +26,13 @@ poetry show --tree --why urllib3
 uv add urllib3~=1.2.3
 poetry add urllib3~=1.2.3
 
+# pyproject.toml: exclude packages newer than 7 days (avoid supply chain attacks)
+[tool.uv]
+exclude-newer = "7 days"
+
+# pull security fix version ignoring age
+uv add urllib3~=1.2.9 --no-exclude-newer
+
 # to skip versions with known errors
 uv add "urllib3>=1.2.3,<1.3.0,!=1.2.4"
 poetry add "urllib3>=1.2.3,<1.3.0,!=1.2.4"
