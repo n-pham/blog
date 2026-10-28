@@ -25,6 +25,12 @@ DBT compile produces inconsistent SQL depending on target, vars, full-refresh pa
 With `state:modified+`, a single macro code change will trigger all related and downstream models, together with data tests, metrics and semantic layers.
 
 
+# Elusive full table scan
+
+* partition field in where is wrong data type or wrapped in function or compared with dynamic value 
+* read from {{ this }} without partition filter
+* unique_key is not in partition or cluster configuration
+
 # Select parameter needs Math
 
 Can you spot the incorrect dbt select lines?
