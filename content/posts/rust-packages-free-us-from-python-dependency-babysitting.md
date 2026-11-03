@@ -9,3 +9,5 @@ tags = ['rust', 'python']
 Fixing security CVEs in Airflow and DBT v1 triggers an endless cascade of broken package version dependencies.
 
 Switching to Rust-core tools makes patching as easy as bumping a version number.
+
+For the container side, using multi-stage builds with Chainguard distroless images minimizes OS-layer CVEs.
