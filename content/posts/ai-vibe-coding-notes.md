@@ -16,7 +16,7 @@ Drinking is allowed, but needs minimum age to enforce ownership and accountabili
 Vibe Coding is allowed, but needs minimum years of experience to enforce ownership and awareness of the possible consequences.
 
 
-CEO: We got Production security breach. Find out who committed that code and fire him.
+CEO: We got Production security breach. Find out who committed that code and fire him.<br/>
 Manager: Boss, the log says "Co-Authored-By: Claude"
 
 
@@ -24,3 +24,7 @@ ACME achieves dual 100% milestones in both Security and AI Maturity:
 * Developer Security: 100% of our developers are OWASP-certified in writing secure code.
 * AI Maturity: 100% of our code is now written and reviewed by AI.
 
+Descartes: "Je pense, donc je suis."<br/>
+Meaning: "I think, therefore I am."<br/>
+Yesterday: "I code, therefore I stay."<br/>
+Today: "AI thinks, therefore AI wins."
