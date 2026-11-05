@@ -1,5 +1,6 @@
 +++
 title = 'SQL Gotchas'
+featured_image = 'images/sql-gotchas-not-in-null.gif'
 date = 2026-11-05T10:00:00+07:00
 draft = false
 tags = ['bigquery', 'sql']
