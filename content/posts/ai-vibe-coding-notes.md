@@ -28,3 +28,6 @@ Descartes: "Je pense, donc je suis."<br/>
 Meaning: "I think, therefore I am."<br/>
 Yesterday: "I code, therefore I stay."<br/>
 Today: "AI thinks, therefore AI wins."
+
+AI writes my posts  ❌
+AI boosts my posts  👍
