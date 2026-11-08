@@ -17,7 +17,11 @@ tags = []
 * Mr. Enterprise: Cost-Cutting Strategy
 
   Horizontal cutting is better than vertical cutting.
+* When you have a hammer, everything looks like a nail.
 
+  When you have a Swiss Army knife, everything looks broken.
+
+  When you have AWS, Azure, Databricks, or GCP, your grandfather-clock system looks like rust.
 
 
 Other posts:
