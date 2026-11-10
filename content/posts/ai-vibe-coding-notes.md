@@ -48,3 +48,11 @@ AI boosts my posts  👍
 
 2026: "Code is cheap. Nobody reads it anyway - if it breaks, just tell Claude to write new code."
 - AI engineer clearing 24 PRs in 5 minutes
+
+---
+
+You know you have talked to AI too much when:
+* You tell juniors "make no mistakes"
+* You avoid "he/she" by using "human"
+* You accidentally type "/summary" into the group chat
+* You verbally say "slash new"

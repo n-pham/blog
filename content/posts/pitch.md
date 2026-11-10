@@ -33,3 +33,4 @@ Other posts:
 * [Post]({{< relref "posts/hypothesis-for-senior-junior-composition.md" >}})
 * [Post]({{< relref "posts/rust-packages-free-us-from-python-dependency-babysitting.md" >}})
 * [Post]({{< relref "posts/text-to-sql-is-solved-for-nothing.md" >}})
+* [Post]({{< relref "posts/data-mesh-data-product-lessons-learned.md" >}})
