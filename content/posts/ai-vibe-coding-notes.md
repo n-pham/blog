@@ -56,3 +56,7 @@ You know you have talked to AI too much when:
 * You avoid "he/she" by using "human"
 * You accidentally type "/summary" into the group chat
 * You verbally say "slash new"
+
+---
+
+Tip:  in support channel, if you greet people with "Hi, I'm Claude", they will try to provide all the context, steps, logs, expected results on first try.
