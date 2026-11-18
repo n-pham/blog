@@ -60,3 +60,18 @@ You know you have talked to AI too much when:
 ---
 
 Tip:  in support channel, if you greet people with "Hi, I'm Claude", they will try to provide all the context, steps, logs, expected results on first try.
+
+---
+
+David's tech career ended when he couldn't finish a LeetCode Hard in an hour, earning the classic lines: "We have decided to move forward with another candidate."
+
+Years later, David-now a farmer-ran into the recruiter who replied him:
+- "Just between us," David asked, "who was the other candidate?"
+- "GPT-5," the recruiter said.
+- "Figures," David sighed. "It solves LeetCode Hards in two seconds."
+- The recruiter winked. "You still think it was about LeetCode?"
+
+---
+
+Human interview criteria is LeetCode Hard in an hour --> human crams LeetCode for interview.
+Model selection criteria is pass@1 on SWE-bench Pro within 64k tokens --> model is trained on synthetic repos.
