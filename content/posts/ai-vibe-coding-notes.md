@@ -73,5 +73,16 @@ Years later, David-now a farmer-ran into the recruiter who replied him:
 
 ---
 
-Human interview criteria is LeetCode Hard in an hour --> human crams LeetCode for interview.
+Human interview criteria is LeetCode Hard in an hour --> human crams LeetCode for interview.<br/>
 Model selection criteria is pass@1 on SWE-bench Pro within 64k tokens --> model is trained on synthetic repos.
+
+---
+
+It seems reasonable when software engineers let AI write Java, Python, Golang, Rust.<br/>
+It feels questionable for data engineers to let AI write SQL.
+
+---
+
+2016: 100 humans competed to invert a binary tree. The fastest one got hired to write CRUD.<br/>
+2026: 100 models compete to pass SWE-bench Pro in the fewest tokens. The weekly winner writes CRUD—reviewed by the human from 2016.
+
