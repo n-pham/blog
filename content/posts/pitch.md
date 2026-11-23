@@ -14,6 +14,7 @@ tags = []
 
   Vibe coding is allowed, but needs minimum years of experience to enforce ownership and awareness of the possible consequences. 
 * I know team productivity looking only at their calendar!
+* Self healing pipelines using local decision model, with resource monitoring.
 * Mr. Enterprise: Cost-Cutting Strategy
 
   Horizontal cutting is better than vertical cutting.

@@ -19,3 +19,5 @@ With that knowledge, we have flexible schema data.\
 Without that knowledge, the field is never trusted to be used, and we have a data swamp.
 
 Data with undocumented values should stay as debt in the transactional system, IMO.
+
+(most capable technology now are Delta Lake and Iceberg)
