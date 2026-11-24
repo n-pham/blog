@@ -67,4 +67,4 @@ tags = ['ai', 'sql']
 * For SQL, both humans and AI must constantly look ahead or look back to place the right keyword in the right clause.
 * For Pipe SQL, it removes 2 keywords QUALIFY and HAVING, but adds 2 keywords AGGREGATE and EXTEND while still breaks the linear flow at JOINs.
 * For me, why must I keep learning new SQL syntax while I have been writing SQL since 2004!
-* But SQL is still best for non-tech humans. So dual frameworks such as PySpark, Ibis and SQLMesh are best for this scenario.
+* But SQL is still best for non-tech humans. So dual frameworks such as PySpark, Ibis and SQLMesh are best for this scenario (staged, enriched, metrics-sql, mart).

@@ -10,7 +10,7 @@ copyright = "Disclaimer: posts are my own and do not necessarily reflect the vie
 
 [params]
 favicon = 'images/favicon.ico'
-subtitle = "Data Lake Analytics Lead | DB Architect | Multi-Cloud | R, Python, SQL"
+subtitle = "Data Lake Analytics Lead & Architect | AWS, Databricks, GCP | dbt, Agentic AI"
 
 [markup]
   [markup.highlight]
