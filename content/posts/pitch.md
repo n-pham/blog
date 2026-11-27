@@ -15,6 +15,9 @@ tags = []
   Vibe coding is allowed, but needs minimum years of experience to enforce ownership and awareness of the possible consequences. 
 * I know team productivity looking only at their calendar!
 * Self healing pipelines using local decision model, with resource monitoring.
+* Near realtime test.
+* Stakeholders do not use data systems, they use data contracts (shape, grain, semantics, freshness).
+* Data-first ≠ infrastructure-first
 * Mr. Enterprise: Cost-Cutting Strategy
 
   Horizontal cutting is better than vertical cutting.
